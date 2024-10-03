@@ -24,7 +24,7 @@ clean:
 
 # Different convos
 run: install
-	convogen-cli
+	cd cmd/convogen-cli && convogen-cli
 
 # Needed tools
 GOLANGCI_VERSION := 1.50.1

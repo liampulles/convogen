@@ -16,3 +16,6 @@
 
 coverage.txt
 .vscode/
+
+# Secrets
+*secret*.y*ml
